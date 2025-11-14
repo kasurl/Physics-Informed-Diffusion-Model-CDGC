@@ -1,5 +1,5 @@
-# Visible-to-Infrared Domain Translation of Pavement Crack Images by A Physics-Informed Diffusion Model
-
+# Physics-Informed-Diffusion-Model-CDGC
+This repo is the official implementation of "Visible-to-Infrared Domain Translation of Pavement Crack Images by A Physics-Informed Diffusion Model"
 <img src="Physics-Informed-Diffusion.png" alt="Physics-Informed-Diffusion" style="zoom:50%;" />
 
 ## Environment
