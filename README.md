@@ -97,5 +97,5 @@ bash Unet/shell/predict.sh
 
 ## Acknowledgements
 
-Our code is built upon [LDM](https://github.com/CompVis/latent-diffusion) and [PID]([https://github.com/FanglinBao/HADAR](https://github.com/fangyuanmao/PID)). We thank the authors for their excellent work.
+Our code is built upon [LDM](https://github.com/CompVis/latent-diffusion) and [PID](https://github.com/fangyuanmao/PID). We thank the authors for their excellent work.
 
