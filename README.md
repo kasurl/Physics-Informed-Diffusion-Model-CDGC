@@ -12,11 +12,18 @@ conda env create --file=environment.yml
 
 ## Datasets
 
+The datasets for training the physics-informed diffusion model to generate synthetic infrared images can be downloaded at: [Insert dataset download link here]
+
+The datasets for testing the segmentation model can be downloaded at: [Insert dataset download link here]
 
 ## Checkpoint
 
-## CDGC Test
+The pretrained physics-informed diffusion model for generating synthetic infrared images can be downloaded at: [Insert model download link here]
 
+The pretrained segmentation model for testing the crack segmentation performance can be downloaded at: [Insert model download link here]
+
+## CDGC Test
+Use the shellscript to present the performance of CDGC module
 ```sh
 bash shell/CDGC.sh
 ```
@@ -43,21 +50,18 @@ Prepare corresponding RGB and infrared images with same names in two directories
 
 #### Train TeVNet
 ```bash
-cd TeVNet
 bash TeVNet/shell/train.sh
 ```
 
 #### Test TeVNet or output TeV decomposition variables.
 
 ```sh
-cd ../../PID
 bash TeVNet/shell/test_vnums4.sh
 ```
 
 #### TeV -> HSV images
 
 ```sh
-cd ../../PID
 bash TeVNet/shell/test_tev2hsv.sh
 ```
 
