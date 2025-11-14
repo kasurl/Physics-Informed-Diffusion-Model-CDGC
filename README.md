@@ -1,6 +1,6 @@
 # 
 
-<img src="PID.png" alt="PID" style="zoom:50%;" />
+<img src="Physics-Informed-Diffusion.png" alt="Physics-Informed-Diffusion" style="zoom:50%;" />
 
 ## Environment
 
