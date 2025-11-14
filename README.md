@@ -27,7 +27,7 @@ Use the shellscript to present the performance of CDGC module
 ```sh
 bash shell/CDGC.sh
 ```
-## Synthetic lwir imgs Evalutation
+## Synthetic infrared imgs Evalutation
 
 Use the shellscript to evaluate. `indir` is the input directory of visible RGB images, `outdir` is the output directory of translated infrared images,  We prepare some RGB images in `dataset/CDGC` for quick evaluation.
 
