@@ -12,7 +12,7 @@ conda env create --file=environment.yml
 
 ## Datasets
 
-The datasets for training the physics-informed diffusion model to generate synthetic infrared images can be downloaded at: [Infra_val](https://1drv.ms/u/c/a2bda927b647e020/EQTln3WQxTpOoMAPPBfvaf8B7IfyIdeM3oawMQK71c09pw?e=nls6ap)
+The datasets for testing the physics-informed diffusion model to generate synthetic infrared images can be downloaded at: [Infra_val](https://1drv.ms/u/c/a2bda927b647e020/EQTln3WQxTpOoMAPPBfvaf8B7IfyIdeM3oawMQK71c09pw?e=nls6ap)
 
 The datasets for testing the segmentation model can be downloaded at: [Seg Test](https://1drv.ms/u/c/a2bda927b647e020/ETz58PvjweBKjv8cCCnGhZgBX0N5OxBbD5SLyiYVsK11mw?e=cew6OL)
 
