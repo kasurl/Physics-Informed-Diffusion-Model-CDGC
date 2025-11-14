@@ -20,41 +20,78 @@ conda env create --file=environment.yml
 ```sh
 bash shell/CDGC.sh
 ```
-## Evaluation
+## Synthetic lwir imgs Evalutation
 
 Use the shellscript to evaluate. `indir` is the input directory of visible RGB images, `outdir` is the output directory of translated infrared images,  We prepare some RGB images in `dataset/CDGC` for quick evaluation.
 
 ```sh
 bash shell/run_test.sh
 ```
+
 ###  Evaluate the preformance
 ```bash
 bash shell/eval.sh
 ```
 
-## Train
+## Train Physics-Informed-Diffusion 
 
 ### Dataset preparation
 
 Prepare corresponding RGB and infrared images with same names in two directories.
 
-### Stage 1: Train TeVNet
+### Stage 1: TeVNet
 
+#### Train TeVNet
 ```bash
 cd TeVNet
-bash shell/train.sh
+bash TeVNet/shell/train.sh
 ```
 
-### Stage 2: Train PID
+#### Test TeVNet or output TeV decomposition variables.
 
-Use the shellscript to train. It is recommended to use our pretrained model to accelerate the train process.
+```sh
+cd ../../PID
+bash TeVNet/shell/test_vnums4.sh
+```
+
+#### TeV -> HSV images
+
+```sh
+cd ../../PID
+bash TeVNet/shell/test_tev2hsv.sh
+```
+
+### Stage 2: Train AutoEncoder
+
+Use the shellscript to train Autoencoder. 
+
+```bash
+bash shell/run_train_1st.sh
+```
+
+### Stage 3: Train Physics-Informed-Diffusion
+
+Use the shellscript to train. 
 
 ```bash
 bash shell/run_train.sh
 ```
 
+## Unet
+ 
+###Train
+
+```bash
+bash Unet/shell/train.sh
+```
+
+###Predict
+
+```bash
+bash Unet/shell/predict.sh
+```
 
 ## Acknowledgements
 
-Our code is built upon [LDM](https://github.com/CompVis/latent-diffusion) and [HADAR](https://github.com/FanglinBao/HADAR). We thank the authors for their excellent work.
+Our code is built upon [LDM](https://github.com/CompVis/latent-diffusion) and [PID]([https://github.com/FanglinBao/HADAR](https://github.com/fangyuanmao/PID)). We thank the authors for their excellent work.
 
