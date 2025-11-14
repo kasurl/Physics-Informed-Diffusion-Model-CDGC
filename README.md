@@ -14,13 +14,13 @@ conda env create --file=environment.yml
 
 The datasets for training the physics-informed diffusion model to generate synthetic infrared images can be downloaded at: [Insert dataset download link here]
 
-The datasets for testing the segmentation model can be downloaded at: [Insert dataset download link here]
+The datasets for testing the segmentation model can be downloaded at: [Insert dataset download link here](https://1drv.ms/u/c/a2bda927b647e020/ETz58PvjweBKjv8cCCnGhZgBX0N5OxBbD5SLyiYVsK11mw?e=cew6OL)
 
 ## Checkpoint
 
-The pretrained physics-informed diffusion model for generating synthetic infrared images can be downloaded at: [Insert model download link here]
+The pretrained physics-informed diffusion model for generating synthetic infrared images can be downloaded at: [Unet model](https://1drv.ms/u/c/a2bda927b647e020/ESLMwCkEsYZCvwdLfYG0Hp8B1HvcXuf0MuSA1vkAZHqZNg?e=45y4Uj)
 
-The pretrained segmentation model for testing the crack segmentation performance can be downloaded at: [Insert model download link here]
+The pretrained segmentation model for testing the crack segmentation performance can be downloaded at: [physics-informed diffusion model](https://1drv.ms/u/c/a2bda927b647e020/Ec7o6skjXh9NqDQqmZb3du4BHOp2jatTrTEKAjysvcu_Mw?e=2kCXRR)
 
 ## CDGC Test
 Use the shellscript to present the performance of CDGC module
