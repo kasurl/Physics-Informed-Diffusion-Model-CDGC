@@ -4,7 +4,7 @@ This repo is the official implementation of "Visible-to-Infrared Domain Translat
 
 ## Environment
 
-We recommend you to install the environment with environment.yaml. 
+We recommend you to install the environment with environment.yml. 
 
 ```bash
 conda env create --file=environment.yml
